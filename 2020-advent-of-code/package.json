@@ -13,6 +13,7 @@
     "day7": "ts-node day7.ts",
     "day8": "ts-node day8.ts",
     "day9": "ts-node day9.ts",
+    "day10": "ts-node day10.ts",
     "test": "jest --config=.jest.config.js",
     "test:watch": "jest --config=.jest.config.js --watch"
   },
