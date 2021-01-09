@@ -1,5 +1,7 @@
+import fs from "fs";
+
 const readExpense = (fileName: string) =>
-  require("fs")
+  fs
     .readFileSync(fileName)
     .toString()
     .split("\n")
@@ -32,7 +34,7 @@ export const findTupleExpensesMatching = (sum: number) => (
 
 export const findTripleExpensesMatching = (sum: number) => (
   expenses: number[]
-) => {
+): number => {
   let result = 0;
 
   expenses.some((expense, firstIndex) =>
