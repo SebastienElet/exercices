@@ -1,4 +1,8 @@
-import { countOccupiedSeat, seatingSystemMatrix } from "./day11";
+import {
+  countOccupiedSeat,
+  seatingSystemMatrix,
+  seatingSystemMatrix2,
+} from "./day11";
 
 const input = `
   L.LL.LL.LL
@@ -118,6 +122,83 @@ L.#.L..#..
             )
           )
         ).toEqual(37);
+      });
+    });
+  });
+
+  describe("seatingSystemMatrix2", () => {
+    describe("first round", () => {
+      test("should return a matrix", () => {
+        expect(seatingSystemMatrix2(input)).toEqual(`#.##.##.##
+#######.##
+#.#.#..#..
+####.##.##
+#.##.##.##
+#.#####.##
+..#.#.....
+##########
+#.######.#
+#.#####.##`);
+      });
+    });
+
+    describe("second round", () => {
+      test("should return a matrix", () => {
+        expect(
+          seatingSystemMatrix2(
+            `
+#.##.##.##
+#######.##
+#.#.#..#..
+####.##.##
+#.##.##.##
+#.#####.##
+..#.#.....
+##########
+#.######.#
+#.#####.##
+`
+          )
+        ).toEqual(`#.LL.LL.L#
+#LLLLLL.LL
+L.L.L..L..
+LLLL.LL.LL
+L.LL.LL.LL
+L.LLLLL.LL
+..L.L.....
+LLLLLLLLL#
+#.LLLLLL.L
+#.LLLLL.L#`);
+      });
+    });
+
+    describe("third round", () => {
+      test("should return a matrix", () => {
+        expect(
+          seatingSystemMatrix2(
+            `
+#.LL.LL.L#
+#LLLLLL.LL
+L.L.L..L..
+LLLL.LL.LL
+L.LL.LL.LL
+L.LLLLL.LL
+..L.L.....
+LLLLLLLLL#
+#.LLLLLL.L
+#.LLLLL.L#
+`
+          )
+        ).toEqual(`#.L#.##.L#
+#L#####.LL
+L.#.#..#..
+##L#.##.##
+#.##.#L.##
+#.#####.#L
+..#.#.....
+LLL####LL#
+#.L#####.L
+#.L####.L#`);
       });
     });
   });
