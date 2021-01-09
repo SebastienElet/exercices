@@ -60,7 +60,7 @@ export const findEncryptionWeakness = (input: string, preamble: number) => {
 };
 
 if (require.main === module) {
-  const numbers = readFile("day9.txt");
+  const numbers = readFile("day09/day09.txt");
   console.log(
     "What is the first number that does not have this property?",
     findNumberBreakingSuite(numbers, 25)

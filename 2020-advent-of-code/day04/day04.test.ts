@@ -3,7 +3,7 @@ import {
   isValidPassport,
   isValidPassport2,
   parsePassport,
-} from "./day4";
+} from "./day04";
 
 const example = `
 ecl:gry pid:860033327 eyr:2020 hcl:#fffffd

@@ -44,7 +44,7 @@ export const getBoardingId = (input: string) => {
   return row * 8 + column;
 };
 if (require.main === module) {
-  const passes = readBoardingPasses("day5.txt").map(getBoardingId);
+  const passes = readBoardingPasses("day05/day05.txt").map(getBoardingId);
   const [highestSeatId] = passes.sort((a, b) => b - a);
   console.log("Highest seat ID", highestSeatId);
   passes

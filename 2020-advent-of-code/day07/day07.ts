@@ -93,7 +93,7 @@ export const howManyRequiredInside = (rulesInput: string, input: string) => {
 };
 
 if (require.main === module) {
-  const rules = readFile("day7.txt");
+  const rules = readFile("day07/day07.txt");
   console.log(
     "How many bag colors can eventually contain at least one shiny gold bag",
     howManyCanCarry(rules, "shiny gold")

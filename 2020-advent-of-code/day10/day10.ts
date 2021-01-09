@@ -81,7 +81,7 @@ export const getDistinctWays = (input: string) => {
 };
 
 if (require.main === module) {
-  const numbers = readFile("day10.txt");
+  const numbers = readFile("day10/day10.txt");
   console.log(
     "What is the number of 1-jolt differences multiplied by the number of 3-jolt differences?",
     getJoltDifferenceResult(numbers)

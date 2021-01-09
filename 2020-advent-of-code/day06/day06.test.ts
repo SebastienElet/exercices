@@ -5,7 +5,7 @@ import {
   sumAnswersYesForGroups,
   countAnswersAllYesForGroups,
   sumAnswersAllYesForGroups,
-} from "./day6";
+} from "./day06";
 
 describe("day6", () => {
   describe("countAnswersYes", () => {

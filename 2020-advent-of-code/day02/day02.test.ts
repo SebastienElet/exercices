@@ -1,4 +1,4 @@
-import { isValidPassword, isValidPassword2 } from "./day2";
+import { isValidPassword, isValidPassword2 } from "./day02";
 
 describe("day2", () => {
   describe("isValidPassword", () => {

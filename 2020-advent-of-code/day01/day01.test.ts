@@ -1,4 +1,4 @@
-import { findTupleExpensesMatching, findTripleExpensesMatching } from "./day1";
+import { findTupleExpensesMatching, findTripleExpensesMatching } from "./day01";
 
 describe("day1", () => {
   describe("findTupleExpensesmatching", () => {

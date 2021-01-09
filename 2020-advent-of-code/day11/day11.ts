@@ -175,7 +175,7 @@ export const seatingSystemMatrix2 = (input: string): string => {
 };
 
 if (require.main === module) {
-  const seats = readFile("day11.txt");
+  const seats = readFile("day11/day11.txt");
   let matrix = seats;
   let previousOccupied = -1;
   let occupied = 0;
@@ -190,7 +190,7 @@ if (require.main === module) {
 }
 
 if (require.main === module) {
-  const seats = readFile("day11.txt");
+  const seats = readFile("day11/day11.txt");
   let matrix = seats;
   let previousOccupied = -1;
   let occupied = 0;

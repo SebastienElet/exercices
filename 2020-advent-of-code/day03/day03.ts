@@ -38,7 +38,7 @@ export const countTreeOnTobogganTrajectory = (matrix: string[][]): any => ([
 };
 
 if (require.main === module) {
-  const map = readMap("day3.txt");
+  const map = readMap("day03/day03.txt");
   const countTree = countTreeOnTobogganTrajectory(map);
   console.log("Trees on toboggan trajectory", countTree([3, 1]));
   console.log(

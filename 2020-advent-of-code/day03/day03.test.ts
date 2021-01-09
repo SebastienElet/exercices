@@ -2,7 +2,7 @@ import {
   countTreeOnTobogganTrajectory,
   matrixToString,
   stringToMatrix,
-} from "./day3";
+} from "./day03";
 
 const example = `
 ..##.........##.........##.........##.........##.........##.......

@@ -94,7 +94,7 @@ export const countValidPasswords2 = (input: string) =>
   }, 0);
 
 if (require.main === module) {
-  const passports = readPassports("day4.txt");
+  const passports = readPassports("day04/day04.txt");
   const count = countValidPasswords(passports);
   console.log("Valid passports", count);
   const count2 = countValidPasswords2(passports);

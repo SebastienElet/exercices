@@ -86,7 +86,7 @@ export const mutateTheProgramAndReturnAccumulatorValue = (input: string) => {
 };
 
 if (require.main === module) {
-  const program = readFile("day8.txt");
+  const program = readFile("day08/day08.txt");
   console.log(
     "What value is in the accumulator",
     executeAndReturnAccumulatorValue(program)

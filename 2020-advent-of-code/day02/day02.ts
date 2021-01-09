@@ -46,7 +46,7 @@ export const howManyValidPasswords2 = (tuple: [string, string][]) => {
 };
 
 if (require.main === module) {
-  const passwords = readPasswords("day2.txt");
+  const passwords = readPasswords("day02/day02.txt");
   const validPassword = howManyValidPasswords(passwords);
   console.log("Valid passwords (outdated policy):", validPassword);
   const validPassword2 = howManyValidPasswords2(passwords);

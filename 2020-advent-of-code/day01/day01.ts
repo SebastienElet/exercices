@@ -57,7 +57,7 @@ export const findTripleExpensesMatching = (sum: number) => (
 };
 
 if (require.main === module) {
-  const expenses = readExpense("day1.txt");
+  const expenses = readExpense("day01/day01.txt");
   const findTupleExpensesMatching2020 = findTupleExpensesMatching(2020);
   console.log(findTupleExpensesMatching2020(expenses));
   const findTripleExpensesMatching2020 = findTripleExpensesMatching(2020);

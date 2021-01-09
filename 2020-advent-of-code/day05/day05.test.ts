@@ -1,4 +1,4 @@
-import { getBoardingId, getColumn, getRow } from "./day5";
+import { getBoardingId, getColumn, getRow } from "./day05";
 
 describe("day5", () => {
   describe("getRow", () => {

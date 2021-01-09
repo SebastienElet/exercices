@@ -1,4 +1,4 @@
-import { howManyCanCarry, howManyRequiredInside, parseRules } from "./day7";
+import { howManyCanCarry, howManyRequiredInside, parseRules } from "./day07";
 
 const rules = `
   light red bags contain 1 bright white bag, 2 muted yellow bags.

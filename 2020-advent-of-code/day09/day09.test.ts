@@ -1,4 +1,4 @@
-import { findEncryptionWeakness, findNumberBreakingSuite } from "./day9";
+import { findEncryptionWeakness, findNumberBreakingSuite } from "./day09";
 
 describe("day9", () => {
   describe("findNumberBreakingSuite", () => {

@@ -35,7 +35,7 @@ export const sumAnswersAllYesForGroups = (input: string) =>
   sum(countAnswersAllYesForGroups(input));
 
 if (require.main === module) {
-  const forms = readFile("day6.txt");
+  const forms = readFile("day06/day06.txt");
   console.log("Sum of count for each group", sumAnswersYesForGroups(forms));
   console.log(
     "Sum of count for each group when every person answered yes",

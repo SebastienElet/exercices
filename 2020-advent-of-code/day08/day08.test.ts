@@ -1,7 +1,7 @@
 import {
   executeAndReturnAccumulatorValue,
   mutateTheProgramAndReturnAccumulatorValue,
-} from "./day8";
+} from "./day08";
 
 describe("day8", () => {
   describe("executeAndReturnAccumulatorValue", () => {
