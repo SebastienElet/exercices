@@ -5,7 +5,8 @@
   "main": "day1.ts",
   "scripts": {
     "day1": "ts-node --swc day01/day01.ts",
-    "test": "jest --config=.jest.config.js"
+    "test": "jest --config=.jest.config.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "author": "",
   "license": "ISC",
